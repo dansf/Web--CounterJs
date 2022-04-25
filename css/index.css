@@ -1,0 +1,62 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	/* border: 1px solid red; */
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	row-gap: 1.5rem;
+	padding-top: calc(100vh - 80vh);
+}
+
+@media (min-width: 768px){
+	main{
+		justify-content: center;
+		padding-top: 0;
+	}
+}
+
+.main__div{
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 2rem;
+	text-align: center;
+	/* border: 1px solid red; */
+}
+.main__container{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, 100px);
+	column-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	/* border: 1px solid red; */
+}
+
+button{
+	outline: none;
+	cursor: pointer;
+	background-color: #fff;
+	color: black;
+	border-color: black;
+	border-width: 2px;
+	border-radius: .4rem;
+	padding: .5rem 0;
+	font-weight: 600;
+	text-transform: uppercase;
+	/* letter-spacing: 1.5px; */
+	text-align: center;
+	transition: ease-in-out .3s;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+	transition: ease-in-out .3s;
+}
