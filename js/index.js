@@ -51,7 +51,7 @@ const populate = () => {
 
 /* ========== Fim da tentativa de Clean Code!!!! ============= */
 
-const Contador = (increment, reset, decrement, h2) => {
+const Contador = () => {
 	const resetColor = () => {
 		h2.style.color = "#000";
 	};
@@ -80,4 +80,4 @@ const Contador = (increment, reset, decrement, h2) => {
 	});
 };
 
-Contador(increment, reset, decrement, h2);
+Contador();

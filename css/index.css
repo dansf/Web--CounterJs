@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-main{
+.main{
 	/* border: 1px solid red; */
 	height: 100vh;
 	display: flex;
@@ -16,7 +16,7 @@ main{
 }
 
 @media (min-width: 768px){
-	main{
+	.main{
 		justify-content: center;
 		padding-top: 0;
 	}
@@ -27,8 +27,14 @@ main{
 	font-weight: 600;
 	font-size: 2rem;
 	text-align: center;
+	/* height:; */
 	/* border: 1px solid red; */
 }
+
+.main__h2{
+	height: 4rem;
+}
+
 .main__container{
 	display: grid;
 	width: 100%;
